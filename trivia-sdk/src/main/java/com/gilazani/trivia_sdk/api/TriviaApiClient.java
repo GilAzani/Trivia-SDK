@@ -21,7 +21,7 @@ import retrofit2.Call;
 
 
 public class TriviaApiClient {
-    private static final String BASE_URL = "http://192.168.68.111:5000";  // TODO get this value from local.properties
+    private static final String BASE_URL = "http://172.20.25.65:5000";  // TODO get this value from local.properties
     private TriviaCallback triviaCallback;
 
      private Gson gson;
